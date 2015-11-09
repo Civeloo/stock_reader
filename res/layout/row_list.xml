@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget0"
+	android:orientation="horizontal" android:layout_toRightOf="@android:id/icon"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="#ffffff" xmlns:android="http://schemas.android.com/apk/res/android" android:weightSum="1">
+	<com.civeloo.stockreader.tools.ListItemView
+		android:id="@+id/field1" android:layout_height="wrap_content"
+		android:layout_width="150dp" android:text="Title" android:textSize="18sp"
+		android:textStyle="bold" android:textColor="#ff000000"/>
+	<com.civeloo.stockreader.tools.ListItemView
+		android:id="@+id/field2" android:layout_height="wrap_content"
+		android:layout_width="150dp" android:text="Title" android:textSize="18sp"
+		android:textStyle="bold" android:textColor="#ff000000" />
+	<!-- <com.civeloo.stockreader.tools.ListItemView
+		android:id="@+id/field3" android:layout_height="wrap_content"
+		android:layout_width="100dp" android:text="Title" android:textSize="18sp"
+		android:textStyle="bold" android:textColor="#ff000000" />
+	<com.civeloo.stockreader.tools.ListItemView
+		android:id="@+id/field4" android:layout_height="wrap_content"
+		android:layout_width="100dp" android:text="Title" android:textSize="18sp"
+		android:textStyle="bold" android:textColor="#ff000000" />-->
+</LinearLayout>
